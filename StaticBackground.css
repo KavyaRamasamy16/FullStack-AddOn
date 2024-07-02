@@ -1,0 +1,28 @@
+body{
+    background-image: url(image.jpg);
+    background-attachment: fixed;
+    color: rgb(251, 253, 253);
+}
+li{
+    list-style-image: url(icon.jpg);
+    list-style-position: outside;
+}
+table,th,td,tr{
+    border: 2px solid rgb(0, 0, 0);
+   /*border-collapse: collapse;*/ 
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    empty-cells:hide ;
+    border-spacing: 10px;
+    caption-side: bottom;
+}
+th{
+    background-color: blueviolet;
+}
+table tr:nth-child(odd){
+    background-color: rgb(165, 196, 134);
+}
+table tr:nth-child(even){
+    background-color: rgb(238, 167, 117);
+}
